@@ -5,7 +5,7 @@ services:
     ports:
       - 5432:5432
     volumes:
-      - $PWD/data:/var/lib/postgres
+      - $PWD/data:/var/lib/postgresql/data
     environment:
       POSTGRES_DB: app
       POSTGRES_USER: app
